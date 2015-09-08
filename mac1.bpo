@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="10">
+<org.eventb.core.poIdentifier name="AliceSeesLightOn" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="buttonPressed" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="lightOn" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTAliceSeesLightOo" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="AliceSeesLightOn'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="buttonPressed'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="lightOn'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPAliceSeesLightOo" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTIDENTAliceSeesLightOo" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTAliceSeesLightOp" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="buttonPressed'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPAliceSeesLightOp" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTIDENTAliceSeesLightOp" org.eventb.core.poStamp="16">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="lightOn=FALSE" org.eventb.core.source="/BoxButtonLight/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#*|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="buttonPressed=FALSE" org.eventb.core.source="/BoxButtonLight/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#*|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTAliceSeesLightOq" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="buttonPressed'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPAliceSeesLightOq" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTIDENTAliceSeesLightOq" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="lightOn=TRUE" org.eventb.core.source="/BoxButtonLight/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#+|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="buttonPressed=TRUE" org.eventb.core.source="/BoxButtonLight/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#+|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTAliceSeesLightOr" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="lightOn'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPAliceSeesLightOr" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTIDENTAliceSeesLightOr" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="buttonPressed=TRUE" org.eventb.core.source="/BoxButtonLight/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#0|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="lightOn=FALSE" org.eventb.core.source="/BoxButtonLight/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#0|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTAliceSeesLightOs" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="lightOn'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPAliceSeesLightOs" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTIDENTAliceSeesLightOs" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="buttonPressed=FALSE" org.eventb.core.source="/BoxButtonLight/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#1|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="lightOn=TRUE" org.eventb.core.source="/BoxButtonLight/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#1|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTAliceSeesLightOt" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="AliceSeesLightOn'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPAliceSeesLightOt" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#EVTIDENTAliceSeesLightOt" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/BoxButtonLight/mac1.bpo|org.eventb.core.poFile#mac1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="10">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="lightOn∈BOOL" org.eventb.core.source="/BoxButtonLight/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#)"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="AliceSeesLightOn∈BOOL" org.eventb.core.source="/BoxButtonLight/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#\/"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="buttonPressed∈BOOL" org.eventb.core.source="/BoxButtonLight/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.invariant#-"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
